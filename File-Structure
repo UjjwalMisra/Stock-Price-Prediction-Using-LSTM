@@ -1,0 +1,24 @@
+## File Structure
+```
+Stock-Price-Prediction/
+│
+├── data/
+│   ├── stocks.csv                # Historical stock price data
+│   ├── processed_data.pkl        # Preprocessed dataset (optional)
+│
+├── models/
+│   ├── lstm_model.h5             # Saved LSTM model
+│   ├── model_architecture.png    # Model architecture visualization (optional)
+│
+├── notebooks/
+│   ├── stock_price_prediction.ipynb  # Jupyter Notebook for experimentation
+│
+├── src/
+│   ├── data_preprocessing.py     # Script for data preprocessing
+│   ├── train_model.py            # Script for model training
+│   ├── predict.py                # Script for making predictions
+│
+├── requirements.txt              # List of dependencies
+├── README.md                     # Project documentation
+└── LICENSE                       # License file
+```
